@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        alkatra: ["var(--font-alkatra)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
