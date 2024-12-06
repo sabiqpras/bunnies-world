@@ -9,9 +9,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        alkatra: ["var(--font-alkatra)"],
+        osans: ["var(--font-osans)"],
       },
       colors: {
+        primary: "#022df7",
+        secondary: "#c1ddfe",
+        backg: "#f3f3f3",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

@@ -1,7 +1,13 @@
 import React from "react";
+import Nav from "../Nav";
 
 const Header = () => {
-  return <div className="font-alkatra">Jing</div>;
+  return (
+    <header className="grid grid-cols-2 ">
+      <div className="font-bold">Bunnies World</div>
+      <Nav />
+    </header>
+  );
 };
 
 export default Header;
