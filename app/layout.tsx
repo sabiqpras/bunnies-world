@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${osans.variable}`}>
-      <body className="font-osans bg-backg px-3">
+      <body className="font-osans bg-backg px-10">
         <Header />
         {children}
       </body>
